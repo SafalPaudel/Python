@@ -9,7 +9,7 @@ b=("Safal")
 print(b)
 print(a+a1)
 
-a=1.1
+a=1.2
 b=True
 c="Safal"
 d=None
