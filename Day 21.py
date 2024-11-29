@@ -1,36 +1,36 @@
-# def average(a,b):
-#     print("The average is" , (a+b)/2)
+def average(a,b):
+    print("The average is" , (a+b)/2)
 
-# average(4,5)
-
-
-# def name(fname, mname = "Prasad", lname = "Paudel"):
-#     print("Hello,", fname, mname, lname)
-
-# name("Safal")
-
-# def name(fname, mname, lname):
-#     print("Hello,", fname, mname, lname)
-
-# name("Peter", "Quill","Paudel")
+average(4,5)
 
 
-# def average(*numbers):
-#     print(type(numbers))
-#     sum = 0
-#     for i in numbers:
-#         sum= sum + i
-#     print("Average is:", sum / len(numbers))
+def name(fname, mname = "Prasad", lname = "Paudel"):
+    print("Hello,", fname, mname, lname)
+
+name("Safal")
+
+def name(fname, mname, lname):
+    print("Hello,", fname, mname, lname)
+
+name("Peter", "Quill","Paudel")
+
+
+def average(*numbers):
+    print(type(numbers))
+    sum = 0
+    for i in numbers:
+        sum= sum + i
+    print("Average is:", sum / len(numbers))
     
-# average(5,6,4,5,6,3,2)
+average(5,6,4,5,6,3,2)
 
 
-################  DICTIONARY CLASS #############
+###############  DICTIONARY CLASS #############
 
-# def name(**name):
-#     print("Hello,", name["fname"], name["mname"], name["lname"])
+def name(**name):
+    print("Hello,", name["fname"], name["mname"], name["lname"])
 
-# name(mname = "Buchanan", lname = "Barnes", fname = "James")
+name(mname = "Buchanan", lname = "Barnes", fname = "James")
 
 
 
